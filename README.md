@@ -25,18 +25,29 @@ STEP:7 compare the output with truth table.
 ![image](https://github.com/RESMIRNAIR/4BIT_SYNCHRONOUS_UP_COUNTER/assets/154305926/62c47758-b0a4-4fe0-842f-5c4245a88ff2)
 # Program
 module synchronous_up_counter(
+
     input wire clk,   // Clock input
+    
     input wire reset, // Reset input
+    
     output reg [3:0] count // 4-bit output
+    
 );
 
 // Reset the counter to 0 when reset is active
+
 always @(posedge clk or posedge reset)
+
 begin
+
     if (reset)
+    
         count <= 4'b0000;
+        
     else
+    
         count <= count + 1; // Increment the count on each clock cycle
+        
 end
 
 endmodule
