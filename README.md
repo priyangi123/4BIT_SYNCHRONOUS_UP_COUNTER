@@ -54,5 +54,5 @@ endmodule
 # Output
 ![image](https://github.com/priyangi123/4BIT_SYNCHRONOUS_UP_COUNTER/assets/165141104/6b00d87a-714d-46c3-b149-047c85028bf7)
 # Result
-Thus the verilog program for 4bir synchronous up counter has been simulated and verified successfully.
+Thus the verilog program for 4bit synchronous upcounter has been simulated and verified successfully.
 
